@@ -129,7 +129,7 @@ const experiences: TExperience[] = [
     companyName: "E-Cell JNEC",
     icon: starbucks, // Update with the E-Cell logo if available
     iconBg: "#383E56",
-    date: "August 2024",
+    date: "1 September 2024",
     points: [
       "Introduction of the E-Cell JNEC to students, discussing the mission, vision, and upcoming plans.",
       "Engaged over 100 students from various departments.",
@@ -141,7 +141,7 @@ const experiences: TExperience[] = [
     companyName: "E-Cell JNEC",
     icon: tesla, // Update with relevant icon
     iconBg: "#E6DEDD",
-    date: "September 2024",
+    date: "15 September 2024",
     points: [
       "Conducted our first major event, Srujan, which attracted 200+ participants from over 20 colleges.",
       "Focused on startup ideas, entrepreneurship, and the importance of innovation.",
@@ -153,7 +153,7 @@ const experiences: TExperience[] = [
     companyName: "E-Cell JNEC",
     icon: shopify, // Update with relevant icon
     iconBg: "#383E56",
-    date: "October 2024",
+    date: "14 September 2024",
     points: [
       "Organized a fun and engaging QR Quest for participants to solve challenges related to startups and entrepreneurship.",
       "Winners were rewarded with prizes and mentorship opportunities.",
@@ -161,13 +161,25 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Upcoming Event: Eureka 2024",
+    title: "Eureka 2024",
     companyName: "E-Cell JNEC",
     icon: meta, // Update with relevant icon
     iconBg: "#E6DEDD",
-    date: "November 2024",
+    date: "1 October 2024",
     points: [
       "Planning to host our flagship event, Eureka 2024, to inspire and encourage student-led startups.",
+      "Expected participation from over 300 students.",
+      "Focus will be on innovative solutions for real-world problems, with guidance from industry experts.",
+    ],
+  },
+  {
+    title: "Upcoming Event: Illuminate 2024",
+    companyName: "E-Cell JNEC",
+    icon: meta, // Update with relevant icon
+    iconBg: "#E6DEDD",
+    date: "December 2024",
+    points: [
+      "Planning to host our Workshop, Illumnate 2024, to inspire and encourage student-led startups.",
       "Expected participation from over 300 students.",
       "Focus will be on innovative solutions for real-world problems, with guidance from industry experts.",
     ],
@@ -180,7 +192,7 @@ const testimonials: TTestimonial[] = [
     name: "Akash Chaudhari",
     designation: "Secretary",
     company: "E-Cell JNEC",
-    image: "https://randomuser.me/api/portraits/men/1.jpg", // Replace with Akash's image
+    image: "src/assets/Team/akash.jpg", // Replace with Akash's image
   },
   {
     testimonial:
@@ -188,15 +200,15 @@ const testimonials: TTestimonial[] = [
     name: "Nirbhay Khedekar",
     designation: "Vice Secretary",
     company: "E-Cell JNEC",
-    image: "https://randomuser.me/api/portraits/men/2.jpg", // Replace with Nirbhay's image
+    image: "src/assets/Team/nirbhay.jpg", // Replace with Nirbhay's image
   },
   {
     testimonial:
-      "The design philosophy at E-Cell JNEC is to make entrepreneurship visually appealing and accessible. Each event is a new challenge for us to create a lasting impression through our visual storytelling.",
-    name: "Steven Dsilva",
+      "The Content philosophy at E-Cell JNEC is to make entrepreneurship visually appealing and accessible. Each event is a new challenge for us to create a lasting impression through our visual storytelling.",
+    name: "Arya Babulgoankar",
     designation: "Design Head",
     company: "E-Cell JNEC",
-    image: "https://randomuser.me/api/portraits/men/3.jpg", // Replace with Steven's image
+    image: "src/assets/Team/arya.jpg", // Replace with Steven's image
   },
 ];
 

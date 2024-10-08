@@ -52,7 +52,7 @@ export const config: TConfig = {
   },
   contact: {
     p: "Get in touch with us",
-    h2: "Contact E-Cell.",
+    h2: "Contact Us",
     form: {
       name: {
         span: "Your Name",
