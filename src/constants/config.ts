@@ -79,8 +79,8 @@ export const config: TConfig = {
       h2: "Achievements and Initiatives.",
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: "Our Team",
+      h2: "Leads",
     },
     works: {
       p: "Our Work",

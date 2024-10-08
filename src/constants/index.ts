@@ -32,6 +32,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  akash,
+  nirbhay
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -192,7 +194,7 @@ const testimonials: TTestimonial[] = [
     name: "Akash Chaudhari",
     designation: "Secretary",
     company: "E-Cell JNEC",
-    image: "src/assets/Team/akash.jpg", // Replace with Akash's image
+    image: akash, // Replace with Akash's image
   },
   {
     testimonial:
@@ -200,15 +202,7 @@ const testimonials: TTestimonial[] = [
     name: "Nirbhay Khedekar",
     designation: "Vice Secretary",
     company: "E-Cell JNEC",
-    image: "src/assets/Team/nirbhay.jpg", // Replace with Nirbhay's image
-  },
-  {
-    testimonial:
-      "The Content philosophy at E-Cell JNEC is to make entrepreneurship visually appealing and accessible. Each event is a new challenge for us to create a lasting impression through our visual storytelling.",
-    name: "Arya Babulgoankar",
-    designation: "Design Head",
-    company: "E-Cell JNEC",
-    image: "src/assets/Team/arya.jpg", // Replace with Steven's image
+    image: nirbhay, // Replace with Nirbhay's image
   },
 ];
 
