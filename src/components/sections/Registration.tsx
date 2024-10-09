@@ -2,11 +2,17 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "../../hoc";
 import { fadeIn } from "../../utils/motion";
 
-// Replace with your social media icons
+// Import icons from react-icons
+import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaTwitter, FaGoogle } from "react-icons/fa";
+
+// Define the social media links with their respective icons
 const socialLinks = [
-  { icon: "path/to/facebook-icon.png", url: "https://facebook.com" },
-  { icon: "path/to/twitter-icon.png", url: "https://twitter.com" },
-  { icon: "path/to/linkedin-icon.png", url: "https://linkedin.com" },
+  { icon: <FaGithub />, url: "https://github.com/akashch1512" },
+  { icon: <FaLinkedin />, url: "https://www.linkedin.com/company/e-cell-jnec" },
+  { icon: <FaInstagram />, url: "https://www.instagram.com/ecell_jnec/" },
+  { icon: <FaYoutube />, url: "https://www.youtube.com/@AkashChaudhari-o6d" },
+  { icon: <FaTwitter />, url: "https://x.com/ecell_jnec" },
+  { icon: <FaGoogle />, url: "mailto:ecelljnec2024@gmail.com" },
 ];
 
 const RegistrationPage = () => {
@@ -39,9 +45,11 @@ const RegistrationPage = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="text-center text-lg text-white mb-8"
       >
-        <p className="font-semibold">Deadline for Registration: <span className="text-red-600">30th October</span> (20% discount)</p>
+        <p className="font-semibold">
+          Deadline for Registration: <span className="text-red-600">30th October</span> (20% discount)
+        </p>
         <p>Full fees applicable after the deadline.</p>
-        <p className="font-semibold">Event Details:</p>
+        <p className="font-semibold"><br></br>Event Details</p>
         <p>Date: <span className="text-blue-600">14th December</span></p>
         <p>Venue: <span className="text-blue-600">MGM University, 10 AM - 5 PM</span></p>
       </motion.div>
@@ -64,10 +72,28 @@ const RegistrationPage = () => {
 
       <div className="flex justify-center mt-10">
         {socialLinks.map((link, index) => (
-          <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" className="mx-2">
-            <img src={link.icon} alt="Social Icon" className="h-8 w-8" />
+          <a
+            key={index}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-2 text-white text-3xl hover:text-gray-400 transition duration-200"
+          >
+            {link.icon} {/* Render the icon directly */}
           </a>
         ))}
+      </div>
+
+      {/* Add clickable Akash Chaudhari line below the social links */}
+      <div className="flex justify-center mt-4">
+        <a 
+          href="https://github.com/akashch1512" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-white hover:underline text-lg text-center hover:text-blue-500"
+        >
+          E-Cell JNEC<br></br>Akash Chaudhari
+        </a>
       </div>
     </div>
   );
