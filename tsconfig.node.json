@@ -4,7 +4,14 @@
     "skipLibCheck": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx" // Enable JSX support for React 17 and above
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "vite.config.ts",
+    "src/**/*" // Include all TypeScript files in the src folder
+  ],
+  "exclude": [
+    "node_modules" // Exclude node_modules from compilation
+  ]
 }
