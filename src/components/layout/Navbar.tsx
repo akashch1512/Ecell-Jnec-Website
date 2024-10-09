@@ -26,20 +26,19 @@ const Navbar = () => {
 
     const navbarHighlighter = () => {
       const sections = document.querySelectorAll("section[id]");
-
+    
       sections.forEach((current) => {
         const sectionId = current.getAttribute("id");
-        // @ts-ignore
-        const sectionHeight = current.offsetHeight;
+        const sectionHeight = (current as HTMLElement).offsetHeight; // Cast to HTMLElement
         const sectionTop =
           current.getBoundingClientRect().top - sectionHeight * 0.2;
-
+    
         if (sectionTop < 0 && sectionTop + sectionHeight > 0) {
           setActive(sectionId);
         }
       });
     };
-
+    
     window.addEventListener("scroll", navbarHighlighter);
 
     return () => {
@@ -47,6 +46,13 @@ const Navbar = () => {
       window.removeEventListener("scroll", navbarHighlighter);
     };
   }, []);
+
+  const scrollToRegistration = () => {
+    const registrationSection = document.getElementById("registration");
+    if (registrationSection) {
+      registrationSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <nav
@@ -113,6 +119,14 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+
+        {/* Scroll to Registration section when clicked */}
+        <button
+          className="ml-4 rounded-lg bg-gradient-to-r from-purple-500 to-purple-700 px-6 py-2 text-white hover:from-purple-600 hover:to-purple-800 transition duration-200"
+          onClick={scrollToRegistration}
+        >
+          Illuminate Registration
+        </button>
       </div>
     </nav>
   );

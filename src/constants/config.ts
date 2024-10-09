@@ -45,9 +45,9 @@ export const config: TConfig = {
     email: "ecelljnec2024@gmail.com",
   },
   hero: {
-    name: "E-Cell JNEC",
+    name: "Illuminate",
     p: [
-      "We foster entrepreneurship and innovation among students",
+      "Hands-On Learning: Build, Collaborate, Succeed!",
     ],
   },
   contact: {
@@ -68,11 +68,8 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Who We Are?",
-      content: `E-Cell JNEC is dedicated to promoting entrepreneurship within MGM University's
-      Jawaharlal Nehru Engineering College. Our mission is to create a vibrant
-      entrepreneurial ecosystem by providing guidance, mentorship, and opportunities
-      for students to develop their ideas into successful ventures.`,
+      h2: "What is Illuminate",
+      content: `Illuminate is a distinguished initiative of E-Cell IIT Bombay, dedicated to igniting the entrepreneurial spirit and refining business acumen among students across India. Our workshops address pivotal aspects such as business models, finance, and core entrepreneurial principles, all aimed at empowering and inspiring future leaders.`,
     },
     experience: {
       p: "Our Journey",

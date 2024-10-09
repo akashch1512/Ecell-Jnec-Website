@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import {
   About,
-  Contact,
+  // Contact,
   Experience,
   Feedbacks,
   Hero,
@@ -10,6 +10,7 @@ import {
   // Tech,
   Works,
   StarsCanvas,
+  Registration
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
@@ -34,7 +35,8 @@ const App = () => {
         <Works />
         <Feedbacks />
         <div className="relative z-0">
-          <Contact />
+          {/* <Contact /> */}
+          <Registration />
           <StarsCanvas />
         </div>
       </div>

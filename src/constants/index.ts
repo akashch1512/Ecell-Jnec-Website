@@ -53,19 +53,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "200+ Participants",
+    title: "IIT Bombay Certificates",
     icon: web,
   },
   {
-    title: "3+ Events",
+    title: "Goodies and Gifts from IIT Bombay",
     icon: mobile,
   },
   {
-    title: "40+ Startups Ideas",
+    title: "Guests from IIT Bombay",
     icon: backend,
   },
   {
-    title: "20+ Colleges",
+    title: "Grand Workshop",
     icon: creator,
   },
 ];
@@ -228,27 +228,27 @@ const projects: TProject[] = [
     image: carrent, // Replace with an appropriate image from the event
     sourceCodeLink: "", // No source code link, can be omitted for events
   },
-  {
-    name: "QR Quest",
-    description:
-      "An engaging treasure hunt event where participants decoded QR codes to solve business challenges and puzzles. This event encouraged students to think creatively and collaborate in teams, promoting problem-solving and critical thinking skills.",
-    tags: [
-      {
-        name: "Teamwork",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Problem-Solving",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Interactive",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit, // Replace with an appropriate image from the event
-    sourceCodeLink: "", // No source code link, can be omitted for events
-  },
+  // {
+  //   name: "QR Quest",
+  //   description:
+  //     "An engaging treasure hunt event where participants decoded QR codes to solve business challenges and puzzles. This event encouraged students to think creatively and collaborate in teams, promoting problem-solving and critical thinking skills.",
+  //   tags: [
+  //     {
+  //       name: "Teamwork",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Problem-Solving",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Interactive",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit, // Replace with an appropriate image from the event
+  //   sourceCodeLink: "", // No source code link, can be omitted for events
+  // },
   {
     name: "Eureka 2024",
     description:
@@ -268,6 +268,27 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide, // Replace with an appropriate image from the event
+    sourceCodeLink: "", // No source code link, can be omitted for events
+  },
+  {
+    name: "Illuminate Workshop",
+    description:
+      "Illuminate is a flagship initiative by E-Cell JNEC, aimed at empowering aspiring entrepreneurs and enhancing their business acumen. Our comprehensive workshops are designed to equip students with essential skills and knowledge in entrepreneurship, covering critical topics such as business models, finance, and key entrepreneurial principles.",
+    tags: [
+      {
+        name: "Entrepreneurship",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Innovation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Workshops",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit, // Replace with an appropriate image from the event
     sourceCodeLink: "", // No source code link, can be omitted for events
   },
 ];

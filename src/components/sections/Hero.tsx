@@ -16,9 +16,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-          Welcome To <span className="text-[#915EFF]">{config.hero.name}</span>
-          </h1>
+        <h1 className={`${styles.heroHeadText} gradient-text`}>
+  E-Cell JNEC <span className="text-[#915EFF]">{config.hero.name}</span>
+</h1>
+
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             {config.hero.p[0]} <br className="hidden sm:block" />
             {config.hero.p[1]}

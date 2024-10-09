@@ -28,7 +28,7 @@ import starbucks from "./company/starbucks.png";
 import nirbhay from "./Team/nirbhay.jpg"
 import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import jobit from "./jobit.jpeg";
 import tripguide from "./tripguide.png";
 
 export {
