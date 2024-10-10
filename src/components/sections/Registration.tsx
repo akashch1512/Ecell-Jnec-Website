@@ -4,6 +4,7 @@ import { fadeIn } from "../../utils/motion";
 
 // Import icons from react-icons
 import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaTwitter, FaGoogle } from "react-icons/fa";
+import { EarthCanvas } from "../canvas";
 
 // Define the social media links with their respective icons
 const socialLinks = [
@@ -17,12 +18,14 @@ const socialLinks = [
 
 const RegistrationPage = () => {
   return (
-    <div className="p-10 bg-[space-blue]"> {/* Keeps space blue background for the overall page */}
-      <h1 className="text-6xl font-bold text-center mb-6">
+    
+    <div className="p-1 bg-[space-blue]"> {/* Keeps space blue background for the overall page */}
+      <EarthCanvas/>      
+      <h1 className="text-6xl font-bold text-left sm:text-center mb-10">
         Register for Illuminate Workshop
       </h1>
 
-      <div className="text-2xl flex flex-col items-center mb-10">
+      <div className="text-2xl flex flex-col items-center text-center mb-10">
         <a
           href="https://ecelliitb.com/register"
           className="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg shadow-lg mb-4"
@@ -49,9 +52,9 @@ const RegistrationPage = () => {
           Deadline for Registration: <span className="text-red-600">30th October</span> (20% discount)
         </p>
         <p>Full fees applicable after the deadline.</p>
-        <p className="font-semibold"><br></br>Event Details</p>
+        <p className="font-semibold text-xl"><br></br>Event Details</p>
         <p>Date: <span className="text-blue-600">14th December</span></p>
-        <p>Venue: <span className="text-blue-600">MGM University, 10 AM - 5 PM</span></p>
+        <p>Venue: <span className="text-blue-600">MGM University,<br></br>10 AM - 5 PM</span></p>
       </motion.div>
 
       <h2 className="text-3xl text-white font-bold mb-4">Frequently Asked Questions</h2>
