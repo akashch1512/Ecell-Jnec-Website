@@ -18,29 +18,20 @@ const socialLinks = [
 
 const RegistrationPage = () => {
   return (
-    
     <div className="p-1 bg-[space-blue]"> {/* Keeps space blue background for the overall page */}
-      <EarthCanvas/>      
+      <EarthCanvas />
       <h1 className="text-6xl font-bold text-left sm:text-center mb-10">
         Register for Illuminate Workshop
       </h1>
 
       <div className="text-2xl flex flex-col items-center text-center mb-10">
         <a
-          href="https://ecelliitb.com/register"
-          className="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg shadow-lg mb-4"
+          href="https://ecelljnecilluminate.netlify.app/"  // Typeform registration link
+          className="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-lg shadow-lg"
           target="_blank"
           rel="noopener noreferrer"
         >
-          E-Cell IITB Registration
-        </a>
-        <a
-          href="https://ecelljnc.com/register"
-          className="bg-gradient-to-r from-green-500 to-teal-500 text-white py-2 px-4 rounded-lg shadow-lg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          E-Cell JNEC Registration
+          Register for Illuminate
         </a>
       </div>
 
